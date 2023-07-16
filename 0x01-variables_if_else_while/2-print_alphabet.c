@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/* fnction
+ * g
+ * */
 int main(void)
 {
     char letter='a';
