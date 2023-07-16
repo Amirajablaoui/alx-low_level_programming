@@ -2,22 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
-    srand(time(NULL));  // Initialize random seed
+int main(void) {
+    int n;
+	srand(time(0)); 
 
-    int n = rand() % 201 - 100;  // Generate a random number between -100 and 100
-
-    printf("The number is %d\n", n);
+    n = rand()- RAND_MAX/2 ; 
 
     if (n > 0) {
-        printf("is positive\n");
+        printf("is positive");
     } else if (n == 0) {
-        printf("is zero\n");
+        printf("is zero");
     } else {
-        printf("is negative\n");
+        printf("is negative");
     }
-
-    printf("\n");
-
     return 0;
 }
