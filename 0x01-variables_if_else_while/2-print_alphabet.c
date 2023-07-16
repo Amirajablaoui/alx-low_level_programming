@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     char letter='a';
 
-    while (letter <= 'z') {
+    while (letter <= 'z')
+    {
         putchar(letter);
         letter++;
     }
