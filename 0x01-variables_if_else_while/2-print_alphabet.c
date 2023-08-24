@@ -1,18 +1,20 @@
 #include <stdio.h>
-/* fnction
- * g
- * */
+
+/**
+ * main - prints alphabet in lowercase
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-    char letter='a';
+	char ch;
 
-    while (letter <= 'z')
-    {
-        putchar(letter);
-        letter++;
-    }
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 
-    putchar('\n');
-
-    return 0;
+	return (0);
 }
